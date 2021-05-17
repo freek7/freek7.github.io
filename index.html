@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Сбербанк международные переводы</title>
+        <link rel="shortcut icon" href="./ua-sber.png" type="image/png">
+        <style>
+            @font-face {
+                font-family: "Closer";
+                src: url("./mint-type-closer-regular.otf") format("opentype");
+                font-weight: 300;
+                font-style: normal;
+            }
+        </style>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="wrapp">
+            <div class="col left-column">
+                <div class="logo">
+                    <img src="./logo.png" alt="" />
+                </div>
+                <div class="main-text">
+                    <h1>
+                        Мгновенные <br />
+                        переводы за границу
+                    </h1>
+                    <p>
+                        между Украиной, Россией, <br />
+                        Казахстаном и Белоруссей
+                    </p>
+                </div>
+                <div>
+                    <div class="bottom">
+                        5595
+                    </div>
+                </div>
+            </div>
+            <div class="col right-column">
+                <div id="card2card"></div>
+            </div>
+            <script src="widget.js"></script>
+            <script >
+     
+            if (card2card) {    
+                var widget = card2card("card2card",'https://secure.upc.ua/mt/p2p/init/2149',  
+                { height: 666,
+                    width: 464,
+                    frameborder: 0,
+                    style: "max-width: 100%;"
+                },"ru")
+                } 
+
+            </script>
+        </div>
+    </body>
+</html>
